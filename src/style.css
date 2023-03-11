@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* padding: 0.4rem; */
+  letter-spacing: 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: linear-gradient(to bottom left,violet,rgb(53, 165, 235));
+  padding-bottom: 100px;
+}
+
+button {
+  width: 44px;
+  height: 36px;
+  font-size: 22px;
+  margin: 1px;
+  border-radius: 36px;
+  background-color: chartreuse;
+  color: rgb(184, 48, 229);
+}
+.clr {
+  width: 60px;
+}
+.claci-container {
+  width: 208px;
+  margin: 6px 40%;
+  padding: 4px;
+  border: 6px dashed rgb(234, 173, 61);
+}
+input {
+  width: 186px;
+  margin-bottom: 6px;
+  font-size: 22px;
+}
+.header {
+  background-color: chartreuse;
+  color: rgb(184, 48, 229);
+  padding: 4px;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-size: 20px;
+}
