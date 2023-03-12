@@ -18,22 +18,33 @@ button {
   font-size: 22px;
   margin: 1px;
   border-radius: 36px;
-  background-color: chartreuse;
+  background-color: rgb(130, 242, 19);
   color: rgb(184, 48, 229);
+  border: none;
+}
+button:hover{
+cursor: pointer;
+background-color: rgb(130, 242, 19,.6);
+
 }
 .clr {
   width: 60px;
 }
 .claci-container {
   width: 208px;
-  margin: 6px 40%;
+  margin: 20px auto;
   padding: 4px;
-  border: 6px dashed rgb(234, 173, 61);
+  border: 6px dashed rgb(244, 39, 220);
+  border-radius: .8rem;
 }
 input {
   width: 186px;
   margin-bottom: 6px;
   font-size: 22px;
+  padding: 2px;
+  background-color:rgb(224, 131, 224);
+  border: none;
+
 }
 .header {
   background-color: chartreuse;
